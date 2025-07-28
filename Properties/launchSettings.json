@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "Smartops": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}
