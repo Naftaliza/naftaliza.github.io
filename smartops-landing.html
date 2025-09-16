@@ -4,12 +4,6 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>SmartOps - AI Admin Automation</title>
-    <script src="https://cdn.jsdelivr.net/npm/@clerk/clerk-sdk@latest/dist/clerk.browser.min.js"></script>
-
-    <script>
-        Clerk.load({ apiKey: "pk_test_c3dlZXBpbmctbWFybGluLTI2LmNsZXJrLmFjY291bnRzLmRldiQ" });
-    </script>
-
 
     <style>
         body {
@@ -137,23 +131,6 @@
         <a href="https://calendly.com/naftalizaro/smartops-demo" class="cta-button">Book Demo Now</a>
         <p><strong>Questions?</strong> Call us: 052-7073229 (Hebrew/English)</p>
     </section>
-
-    <div id="sign-in"></div>
-
-    <script>
-        // Wait for Clerk to fully load
-        Clerk.load({ apiKey: "pk_test_c3dlZXBpbmctbWFybGluLTI2LmNsZXJrLmFjY291bnRzLmRldiQ" }).then(() => {
-            const signIn = Clerk.signIn.create({
-                container: "#sign-in",
-                // Optional: choose appearance mode
-                appearance: {
-                    layout: "modal", // or "inline" for embedded
-                }
-            });
-        });
-    </script>
-
-
 
     <footer>
         &copy; 2025 SmartOps.ai – Built with ❤️ in Israel. All rights reserved.
